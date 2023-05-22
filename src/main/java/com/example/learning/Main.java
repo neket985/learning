@@ -13,7 +13,6 @@ import static com.example.learning.gen.Tables.AUTHOR;
 public class Main {
 
     public static void main(String[] args) {
-        Meteostation meteo1 = new Meteostation(1, 750);
         CloseableDSLContext context = DSL.using(
                 "jdbc:postgresql://localhost:5432/postgres",
                 "postgres",
